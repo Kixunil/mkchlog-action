@@ -9,6 +9,6 @@
   "author": "Martin Habovstiak <martin.habovstiak@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "libmkchlog": "file:../wasm/pkg/libmkchlog-0.1.0.tgz"
+    "libmkchlog": "file:../mkchlog/wasm/pkg/libmkchlog-0.1.0.tgz"
   }
 }
