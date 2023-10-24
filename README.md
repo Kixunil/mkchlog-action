@@ -21,8 +21,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-	  # This is critically important!
-	  # The action won't work without this
+          # This is critically important!
+          # The action won't work without this
           fetch-depth: 0
       - name: Run self
         uses: Kixunil/mkchlog-action
