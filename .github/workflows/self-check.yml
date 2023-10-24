@@ -1,0 +1,18 @@
+name: Self check
+
+on:
+  push:
+    branches: [ master, ci ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout mkchlog
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Run self
+        uses: ./
