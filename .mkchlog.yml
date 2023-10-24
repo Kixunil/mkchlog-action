@@ -1,0 +1,18 @@
+sections:
+    security:
+        title: Security
+        description: This section contains very important security-related changes.
+        subsections:
+            vuln_fixes:
+                title: Fixed vulnerabilities
+    features:
+        title: New features
+    bug_fixes:
+        title: Fixed bugs
+    breaking:
+        title: Breaking changes
+    perf:
+        title: Performance improvements
+    dev:
+        title: Development
+        description: Internal development changes

@@ -1,0 +1,14 @@
+{
+  "name": "mkchlog",
+  "version": "0.1.0",
+  "description": "Generates changelog from commits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Habovstiak <martin.habovstiak@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "libmkchlog": "file:../wasm/pkg/libmkchlog-0.1.0.tgz"
+  }
+}

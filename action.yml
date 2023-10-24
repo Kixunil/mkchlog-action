@@ -1,0 +1,5 @@
+name: Check commits with mkchlog
+description: Checks if the commits conform to mkchlog format
+runs:
+        using: node20
+        main: index.js
