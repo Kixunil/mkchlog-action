@@ -24,6 +24,6 @@ jobs:
           # This is critically important!
           # The action won't work without this
           fetch-depth: 0
-      - name: Run self
-        uses: Kixunil/mkchlog-action
+      - name: Check changelog
+        uses: Kixunil/mkchlog-action@master
 ```
